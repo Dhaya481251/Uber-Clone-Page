@@ -1,0 +1,1072 @@
+.header{
+    width: 100%;
+    height: 64px;
+    background-color:black;
+}
+body{
+    margin: 0;
+}
+.logo{
+    color: white;
+    font-family:  UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type:none;
+    letter-spacing: -2px;
+    padding-left: 100px;
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#uber-logo{
+    color: white;
+    padding-top: 0px;
+}
+.uber-u{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: lighter;
+}
+.uber-ber{
+    font-size: 23px;
+    letter-spacing: -1px;
+    padding-top: 9px;
+}
+.header-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    font-family:  UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.ride{
+    padding-left: 25px;
+    padding-top: 21px;
+    font-weight: 500;
+}
+.drive{
+    padding-top: 21px;
+    padding-left: 0px;
+    font-weight: 500;
+}
+.business{
+    padding-top: 21px;
+    padding-left: 8px;
+    font-weight: 500;
+}
+.eats{
+    padding-top: 21px;
+    padding-left: 15px;
+}
+.small-u{
+    font-size: 19px;
+    font-weight: 400;
+}
+.small-ber{
+    font-size: 15px;
+    font-weight: 500px;
+}
+.about{
+    padding-top: 21px;
+    padding-left: 8px;
+    font-weight: 500;
+}
+.world-symbol{
+    padding-left: 570px;
+    padding-top: 21px;
+    
+}
+.lan-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.symbol-btn{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: hidden;
+    width: 65px;
+    height: 30px;
+    border-radius: 30px;
+}
+.symbol-btn:hover{
+    cursor:pointer;
+    background-color:rgb(40, 40, 40);
+}
+.ride-btn{
+    background-color: black;
+    color: white;
+    border-style: hidden;
+    width: 65px;
+    height: 30px;
+    border-radius: 30px;
+}
+.ride-btn:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.drive-btn{
+    background-color: black;
+    color: white;
+    border-style: hidden;
+    width: 65px;
+    height: 30px;
+    border-radius: 30px;
+}
+.drive-btn:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.business-btn{
+    background-color: black;
+    color: white;
+    border-style: hidden;
+    width: 65px;
+    height: 30px;
+    border-radius: 30px;
+}
+.business-btn:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.eats-btn{
+    background-color: black;
+    color: white;
+    border-style: hidden;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+}
+.eats-btn:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.about-btn{
+    background-color: black;
+    color: white;
+    border-style: 2px;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    border-style: hidden;
+    
+}
+.about-btn:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.arrow{
+    width: 16px;
+    background-color: black;
+    color: white;
+    border-style: hidden;
+    transition: 0.2s;
+}
+.arrow:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.option1{
+    background-color: white;
+    color: black;
+}
+.option2{
+    background-color: white;
+    color: black;
+}
+.option3{
+    background-color: white;
+    color: black;
+}
+.option4{
+    background-color: white;
+    color: black;
+}
+.option5{
+    background-color: white;
+    color: black;
+}
+.option6{
+    background-color: white;
+    color: black;
+}
+.option7{
+    background-color: white;
+    color: black;
+}
+.option8{
+    background-color: white;
+    color: black;
+}
+.option9{
+    background-color: white;
+    color: black;
+}
+.option10{
+    background-color: white;
+    color: black;
+}
+.help{
+    padding-top: 21px;
+    padding-left: 7px
+}
+.help-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    background: black;
+    color: white;
+    border-style: hidden;
+}
+.help-btn:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.log-in{
+    padding-top: 21px;
+    padding-left: 7px
+}
+.login-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    background: black;
+    color: white;
+    border-style: hidden;
+}
+.login-btn:hover{
+    cursor: pointer;
+    background-color:rgb(40, 40, 40);
+}
+.sign-up{
+    padding-top: 21px;
+    padding-left: 7px
+}
+.signup-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    background:white;
+    color:black;
+    border-style: hidden;
+}
+.signup-btn:hover{
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
+}
+.section-1{
+    background:black;
+    width: 100%;
+    height: 825.500px;
+}
+.left-section-1{
+    width:50%;
+    float:left;
+}
+.right-section-1{
+    width:50%;
+    float:left;
+}
+.section-2{
+    background:white;
+    width: 100%;
+    height: 686px;
+}
+.left-section-2{
+    width:50%;
+    float:left;
+}
+.right-section-2{
+    width:50%;
+    float:left;
+}
+.section-3{
+    background:white;
+    width: 100%;
+    height: 686px;
+}
+.left-section-3{
+    width:50%;
+    float:left;
+}
+.right-section-3{
+    width:50%;
+    float:left;
+}
+.section-4{
+    background-color: white;
+    width: 100%;
+    height: 686px;
+}
+.left-section-4{
+    width:50%;
+    float:left;
+}
+.right-section-4{
+    width:50%;
+    float:left;
+}
+.section-5{
+    background-color:#f3f2f2;
+    width: 100%;
+    height: 406px;
+}
+.left-section-5{
+    width:50%;
+    float:left;
+}
+.right-section-5{
+    width:50%;
+    float:left;
+}
+.section-1-text{
+    color: white;
+    padding-left: 225px;
+    padding-top: 200px;
+    font-size: 52px;
+    font-weight: 600;
+    font-family:UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 60px;
+    letter-spacing: -2px;
+}
+.u{
+    font-size: 78px;
+    font-weight: 400;
+    letter-spacing: -4px;
+    font-family:UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.section-1-text2{
+    color: white;
+    padding-left: 225px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+}
+input{
+    margin-left: 180px;
+    width: 370px;
+    height: 50px;
+    border-radius: 9px;
+    border-style: hidden;
+    
+}
+.location-text{
+    padding-left: 33px;
+    font-size: 19px;
+    outline: none;
+}
+.location{
+    position: relative;
+    padding-left: 45px;
+    cursor: text;
+}
+.location i{
+    color: black;
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 190px;
+    font-size: 8px;
+}
+#location-arrow{
+    color: black;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 543px;
+    font-size: 25px;
+}
+.destination-text{
+    padding-left: 33px;
+    font-size: 19px;
+    outline: none;
+}
+.destination{
+    position: relative;
+    padding-left: 45px;
+    padding-top: 20px;
+    cursor: text;
+}
+.destination i{
+    color: black;
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 190px;
+    font-size: 8px;
+    text-shadow: 1px 1px black;
+}
+.price-btn{
+    background-color: white;
+    color: black;
+    margin-left: 225px;
+    width: 135px;
+    height: 50px;
+    border-radius: 9px;
+    border-style: hidden;
+    margin-top: 35px;
+}
+.price-btn:hover{
+    background-color: #EEEEEE;
+}
+.price-text{
+    font-size: 19px;
+}
+.img1{
+    padding-left: 24px;
+    padding-top: 55px;
+}
+.img2{
+    padding-left: 220px;
+    padding-top: 55px;
+}
+.section-2-text{
+    color:black;
+    padding-left: 120px;
+    padding-top: 105px;
+    font-size: 55px;
+    font-weight: 600;
+    font-family:UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 60px;
+    letter-spacing: -2px;
+}
+.section-2-text2{
+    color: black;
+    padding-left: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+}
+.another-u{
+    font-size: 23px;
+    font-weight: 350;
+}
+.start-btn{
+    background-color: black;
+    color: white;
+    margin-left: 120px;
+    width: 135px;
+    height: 50px;
+    border-radius: 9px;
+    border-style: hidden;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.start-btn:hover{
+    background-color:rgb(40, 40, 40);
+}
+.start-text{
+   font-size: 19px;
+   font-weight: bold;
+   font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.account-btn{
+    width: 250px;
+    height: 55px;
+    background:white;
+    border-style: hidden;
+    margin-left:20px;
+}
+.account-text{
+    font-size: 16px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    color: black;
+}
+u{
+    text-underline-offset: 8px;
+    color: #CBCBCB;
+    font-size: 0px;
+}
+a.left{
+    position:relative;
+    padding-top:2px;
+}
+a.left:before{
+    content:"";
+    position:absolute;
+    width: 0;
+    height: 2px;
+    bottom: -9px;
+    background-color: black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+a.left:hover:before{
+    visibility:visible;
+    width:100%;
+}
+.section-3-text{
+    color:#333333;
+    padding-left: 225px;
+    padding-top: 105px;
+    font-size: 55px;
+    font-weight: 600;
+    font-family:UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 60px;
+    letter-spacing: -2px;
+}
+.section-3-text2{
+    color: black;
+    padding-left: 225px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+}
+.solution-btn{
+    width: 250px;
+    height: 55px;
+    background:white;
+    border-style: hidden;
+    margin-left:-2px;
+}
+.solution-text{
+    font-size: 16px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    color: black;
+}
+.img3{
+    padding-left: 24px;
+    padding-top:55px
+}
+.start-btn2{
+    background-color: black;
+    color: white;
+    margin-left: 225px;
+    width: 135px;
+    height: 50px;
+    border-radius: 9px;
+    border-style: hidden;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.start-btn2:hover{
+    background-color:rgb(40, 40, 40);
+}
+.start-text2{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+ }
+.img4{
+    padding-left: 225px;
+    padding-top: 55px;
+}
+.section-4-text{
+    color:black;
+    padding-left: 120px;
+    padding-top: 105px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family:UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 60px;
+    letter-spacing: -2px;
+}
+.section-4-text2{
+    color: black;
+    padding-left: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+}
+.start-btn3{
+    background-color: black;
+    color: white;
+    margin-left: 120px;
+    width: 135px;
+    height: 50px;
+    border-radius: 9px;
+    border-style: hidden;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.start-btn3:hover{
+    background-color:rgb(40, 40, 40);
+}
+.start-text3{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+ }
+
+ .section-5-text{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-left: 225px;
+    line-height: 150px;
+ }
+ .qr1{
+    width:558px;
+    height: 198px;
+    background-color:white;
+    margin-left: 225px;
+    display: flex;
+    cursor: pointer;
+ }
+ .qr2{
+    width:558px;
+    height: 198px;
+    background-color:white;
+    margin-left: 45px;
+    margin-top: 150px;
+    display: flex;
+    cursor: pointer;
+ }
+ .uber-app{
+    width: 150px;
+    height: 150px;
+    padding-left: 25px;
+    padding-top: 25px;
+ }
+ .uber-drive-app{
+    width: 150px;
+    height: 150px;
+    padding-left: 25px;
+    padding-top: 25px;
+ }
+ .download1{
+    padding-top: 56px;
+ }
+ .download-text-1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 650;
+    line-height: 0px;
+    padding-left: 25px;
+ }
+ .download-u{
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: -2px;
+ }
+ .scan-text{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 0px;
+    padding-left: 25px;
+ }
+ .download2{
+    padding-top: 56px;
+ }
+ .download-text-2{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 650;
+    line-height: 0px;
+    padding-left: 25px;
+ }
+ .scan-text{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 0px;
+    padding-left: 25px;
+ }
+ .qr1-arrow{
+    padding-left: 45px;
+    padding-top: 90px;
+    font-size: 20px;
+    transition: 0.3s;
+ }
+ .qr1-arrow:hover{
+    transform: translateX(20%);
+ }
+ .qr2-arrow{
+    padding-left: 45px;
+    padding-top: 90px;
+    font-size: 20px;
+    transition: 0.3s;
+ }
+ .qr2-arrow:hover{
+    transform: translateX(20%);
+ }
+ .footer{
+    width: 100%;
+    height: 1035px;
+    background-color: black;
+    color: white;
+    font-family:  UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ .footer-list{
+    display: flex;
+    flex-direction: column;
+ }
+ .logo2{
+    list-style-type:none;
+    letter-spacing: -2px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 185px;
+    padding-top: 85px;
+ }
+ .visit{
+    list-style-type: none;
+    padding-left: 185px;
+    cursor:pointer;
+    padding-top: 35px;
+ }
+ .sec-1{
+    display: grid;
+ }
+ .box{
+    display: flex;
+ }
+ .column1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 225Px;
+    padding-top: 85px;
+ }
+ .company{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .column1-list{
+    display: flex;
+    flex-direction: column;
+ }
+ .About-us{
+    color: white;
+ }
+ .About-us:hover{
+    color: #AFAFAF;
+ }
+ .Our-offerings{
+    color: white;
+ }
+ .Our-offerings:hover{
+    color: #AFAFAF;
+ }
+ .Newsroom{
+    color: white;
+ }
+ .Newsroom:hover{
+    color: #AFAFAF;
+ }
+ .Investors{
+    color: white;
+ }
+ .Investors:hover{
+    color: #AFAFAF;
+ }
+ .Blog{
+    color: white;
+ }
+ .Blog:hover{
+    color: #AFAFAF;
+ }
+ .Careers{
+    color: white;
+ }
+ .Careers:hover{
+    color: #AFAFAF;
+ }
+ .AI{
+    color: white;
+ }
+ .AI:hover{
+    color: #AFAFAF;
+ }
+ .Gift-cards{
+    color: white;
+ }
+ .Gift-cards:hover{
+    color: #AFAFAF;
+ }
+ .column2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 175Px;
+    padding-top: 85px;
+ }
+ .products{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .column2-list{
+    display: flex;
+    flex-direction: column;
+ }
+ .Ride{
+    color: white;
+ }
+ .Ride:hover{
+    color: #AFAFAF;
+ }
+ .Drive{
+    color: white;
+ }
+ .Drive:hover{
+    color: #AFAFAF;
+ }
+ .Deliver{
+    color: white;
+ }
+ .Deliver:hover{
+    color: #AFAFAF;
+ }
+ .Eat{
+    color: white;
+ }
+ .Eat:hover{
+    color: #AFAFAF;
+ }
+ .Uber-business{
+    color: white;
+ }
+ .Uber-business:hover{
+    color: #AFAFAF;
+ }
+ .Uber-freight{
+    color: white;
+ }
+ .Uber-freight:hover{
+    color: #AFAFAF;
+ }
+ .column3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 175px;
+    padding-top: 85px;
+ }
+ .gobal-citizenship{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .column3-list{
+    display: flex;
+    flex-direction: column;
+ }
+ .Safety{
+    color: white;
+ }
+ .Safety:hover{
+    color: #AFAFAF;
+ }
+ .Diversity{
+    color: white;
+ }
+ .Diversity:hover{
+    color: #AFAFAF;
+ }
+ .Sustainability{
+    color: white;
+ }
+ .Sustainability:hover{
+    color: #AFAFAF;
+ }
+ .column4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 175Px;
+    padding-top: 85px;
+ }
+ .Travel{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .column4-list{
+    display: flex;
+    flex-direction: column;
+ }
+ .Reserve{
+    color: white;
+ }
+ .Reserve:hover{
+    color: #AFAFAF;
+ }
+ .Airports{
+    color: white;
+ }
+ .Airports:hover{
+    color: #AFAFAF;
+ }
+ a:-webkit-any-link{
+    text-decoration: none;
+    padding-top: 15px;
+ }
+ .sec-2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 225px;
+    padding-top: 90px;
+ }
+ .fa-brands{
+    color: white;
+    font-size: 17px;
+ }
+ .facebook-btn{
+    background-color: black;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border-style: hidden;
+ }
+ .facebook-btn:hover{
+    cursor:pointer;
+    background-color: rgb(40, 40, 40);
+ }
+ .twitter-btn{
+    background-color: black;
+    width: 48px;
+    height: 48px;
+    margin-left: 65px;
+    border-radius: 8px;
+    border-style: hidden;
+ }
+ .twitter-btn:hover{
+    cursor:pointer;
+    background-color: rgb(40, 40, 40);
+ }
+ .youtube-btn{
+    background-color: black;
+    width: 48px;
+    height: 48px;
+    margin-left: 65px;
+    border-radius: 8px;
+    border-style: hidden;
+ }
+ .youtube-btn:hover{
+    cursor:pointer;
+    background-color: rgb(40, 40, 40);
+ }
+ .linkedin-btn{
+    background-color: black;
+    width: 48px;
+    height: 48px;
+    margin-left: 65px;
+    border-radius: 8px;
+    border-style: hidden;
+ }
+ .linkedin-btn:hover{
+    cursor:pointer;
+    background-color: rgb(40, 40, 40);
+ }
+ .instagram-btn{
+    background-color: black;
+    width: 48px;
+    height: 48px;
+    margin-left: 65px;
+    border-radius: 8px;
+    border-style: hidden;
+ }
+ .instagram-btn:hover{
+    cursor:pointer;
+    background-color: rgb(40, 40, 40);
+ }
+ .fa-globe{
+    rotate: -45deg;
+ }
+ .Language-btn{
+    background-color: black;
+    height: 35px;
+    margin-top: 5px;
+    color: white;
+    margin-left: 465px;
+    width: 85px;
+    border-radius: 8px;
+    border-style: hidden;
+ }
+ .Language-btn:hover{
+    cursor:pointer;
+    background-color: rgb(40, 40, 40);
+ }
+ .english{
+    padding-left: 10px;
+ }
+ .Location-btn{
+    background-color: black;
+    height: 35px;
+    margin-top: 5px;
+    color: white;
+    width: 85px;
+    border-radius: 8px;
+    border-style: hidden;
+ }
+ .Location-btn:hover{
+    cursor:pointer;
+    background-color: rgb(40, 40, 40);
+ }
+ .kochi{
+    padding-left: 10px;
+ }
+ .sec-3{
+    display: flex;
+    flex-direction: row;
+ }
+ .img-playstore{
+    width: 130px;
+    padding-left: 225px;
+    padding-top: 55px;
+ }
+ .img-appstore{
+    width: 130px;
+    padding-left: 7px;
+    padding-top: 55px;
+ }
+ .sec-4{
+    display: flex;
+    flex-direction: row;
+ }
+ .tech-text{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 225px;
+    padding-top: 45px;
+ }
+ .privacy-text{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 790px;
+    padding-top: 45px;
+ }
+ .privacy-text:hover{
+    color:#4B4B4B;
+    cursor: pointer;
+ }
+ .accessibility-text{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 35px;
+    padding-top: 45px;
+ }
+ .accessibility-text:hover{
+    color: #4B4B4B;
+    cursor: pointer;
+ }
+ .terms-text{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 35px;
+    padding-top: 45px;
+ }
+ .terms-text:hover{
+    color: #4B4B4B;
+    cursor: pointer;
+ }
+ .last-u{
+    font-size: 17px;
+ }
+
+
+
+ 
+ 
+
+ 
