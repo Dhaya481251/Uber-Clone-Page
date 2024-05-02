@@ -6,6 +6,7 @@
 body{
     margin: 0;
 }
+/* To create the logo of the uber */
 .logo{
     color: white;
     font-family:  UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -31,6 +32,7 @@ body{
     letter-spacing: -1px;
     padding-top: 9px;
 }
+/* Header list elements text */
 .header-list{
     display: flex;
     justify-content: flex-start;
@@ -59,6 +61,7 @@ body{
     padding-top: 21px;
     padding-left: 15px;
 }
+/* small-u and small-ber class used for creating the word as same as the logo */
 .small-u{
     font-size: 19px;
     font-weight: 400;
@@ -72,11 +75,12 @@ body{
     padding-left: 8px;
     font-weight: 500;
 }
+/* icon used globe */
 .world-symbol{
     padding-left: 570px;
     padding-top: 21px;
-    
 }
+/* header elements button and its hover effects */
 .lan-btn{
     display: flex;
     justify-content: flex-end;
@@ -172,6 +176,7 @@ body{
     cursor: pointer;
     background-color:rgb(40, 40, 40);
 }
+/* about button select options */
 .option1{
     background-color: white;
     color: black;
@@ -261,71 +266,93 @@ body{
     background-color: rgb(226, 226, 226);
     color: rgb(0, 0, 0);
 }
+/* main-body is divided into five sections */
+/* section 1 */
 .section-1{
     background:black;
     width: 100%;
     height: 825.500px;
 }
+/* section 1 is divided into 2 sections : left section and right section */
+/* left section in section 1*/
 .left-section-1{
     width:50%;
     float:left;
 }
+/* right section in section 1 */
 .right-section-1{
     width:50%;
     float:left;
 }
+/* section 2 */
 .section-2{
     background:white;
     width: 100%;
     height: 686px;
 }
+/* section 2 is divided into 2 sections : left section and right section */
+/* left section in section 2 */
 .left-section-2{
     width:50%;
     float:left;
 }
+/* right section in section 2 */
 .right-section-2{
     width:50%;
     float:left;
 }
+/* section 3 */
 .section-3{
     background:white;
     width: 100%;
     height: 686px;
 }
+/* section 3 is divided into 2 sections : left section and right section */
+/* left section in section 3 */
 .left-section-3{
     width:50%;
     float:left;
 }
+/* right section in section 3 */
 .right-section-3{
     width:50%;
     float:left;
 }
+/* section 4 */
 .section-4{
     background-color: white;
     width: 100%;
     height: 686px;
 }
+/* section 4 is divided into 2 sections : left sectio and right section */
+/* left section in section 4 */
 .left-section-4{
     width:50%;
     float:left;
 }
+/* right section in section 4 */
 .right-section-4{
     width:50%;
     float:left;
 }
+/* section 5 */
 .section-5{
     background-color:#f3f2f2;
     width: 100%;
     height: 406px;
 }
+/* section 5 is divided into 2 sections : left section and right section */
+/* left section in section 5*/
 .left-section-5{
     width:50%;
     float:left;
 }
+/* right section in section 5*/
 .right-section-5{
     width:50%;
     float:left;
 }
+/* properties of text, buttons , input fieldsand icons in section 1 */
 .section-1-text{
     color: white;
     padding-left: 225px;
@@ -417,14 +444,17 @@ input{
 .price-text{
     font-size: 19px;
 }
+/* section 1 image */
 .img1{
     padding-left: 24px;
     padding-top: 55px;
 }
+/* section 2 image */
 .img2{
     padding-left: 220px;
     padding-top: 55px;
 }
+/* properties of text, buttons , input fieldsand icons in section 2 */
 .section-2-text{
     color:black;
     padding-left: 120px;
@@ -502,6 +532,7 @@ a.left:hover:before{
     visibility:visible;
     width:100%;
 }
+/* properties of text, buttons , input fieldsand icons in section 3 */
 .section-3-text{
     color:#333333;
     padding-left: 225px;
@@ -533,6 +564,7 @@ a.left:hover:before{
     cursor: pointer;
     color: black;
 }
+/* section 3 image */
 .img3{
     padding-left: 24px;
     padding-top:55px
@@ -556,10 +588,12 @@ a.left:hover:before{
     font-weight: bold;
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; 
  }
+/* section 4 image */
 .img4{
     padding-left: 225px;
     padding-top: 55px;
 }
+/* properties of text, buttons , input fieldsand icons in section 4 */
 .section-4-text{
     color:black;
     padding-left: 120px;
@@ -597,7 +631,7 @@ a.left:hover:before{
     font-weight: bold;
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; 
  }
-
+/* properties of texts and QR cords in section 5 */
  .section-5-text{
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 36px;
@@ -692,6 +726,7 @@ a.left:hover:before{
  .qr2-arrow:hover{
     transform: translateX(20%);
  }
+/* footer */
  .footer{
     width: 100%;
     height: 1035px;
@@ -699,10 +734,12 @@ a.left:hover:before{
     color: white;
     font-family:  UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
+/* footer list */
  .footer-list{
     display: flex;
     flex-direction: column;
  }
+/* uber logo in the footer */
  .logo2{
     list-style-type:none;
     letter-spacing: -2px;
@@ -711,28 +748,36 @@ a.left:hover:before{
     padding-left: 185px;
     padding-top: 85px;
  }
+/* the properties of text just down the uber logo in the footer */
  .visit{
     list-style-type: none;
     padding-left: 185px;
     cursor:pointer;
     padding-top: 35px;
  }
+/* footer is divided into four sections */
+/* section 1 in footer */
  .sec-1{
     display: grid;
  }
+/* section 1 is designed as a box */
  .box{
     display: flex;
  }
+/* In this box, there are four columns */
+/* properties of column 1 */
  .column1{
     display: flex;
     flex-direction: column;
     padding-left: 225Px;
     padding-top: 85px;
  }
+/* column 1 heading */
  .company{
     font-size: 18px;
     font-weight: 500;
  }
+/* column 1 elements and its hover effects */
  .column1-list{
     display: flex;
     flex-direction: column;
@@ -785,16 +830,19 @@ a.left:hover:before{
  .Gift-cards:hover{
     color: #AFAFAF;
  }
+/* column 2 */
  .column2{
     display: flex;
     flex-direction: column;
     padding-left: 175Px;
     padding-top: 85px;
  }
+/* column 2 heading */
  .products{
     font-size: 18px;
     font-weight: 500;
  }
+/* column 2 elements and its hover effects */
  .column2-list{
     display: flex;
     flex-direction: column;
@@ -835,16 +883,19 @@ a.left:hover:before{
  .Uber-freight:hover{
     color: #AFAFAF;
  }
+/* column 3 */
  .column3{
     display: flex;
     flex-direction: column;
     padding-left: 175px;
     padding-top: 85px;
  }
+/* column 3 heading */
  .gobal-citizenship{
     font-size: 18px;
     font-weight: 500;
  }
+/* column 3 elements and its hover effects */
  .column3-list{
     display: flex;
     flex-direction: column;
@@ -867,16 +918,19 @@ a.left:hover:before{
  .Sustainability:hover{
     color: #AFAFAF;
  }
+/* column 4 */
  .column4{
     display: flex;
     flex-direction: column;
     padding-left: 175Px;
     padding-top: 85px;
  }
+/* column 4 heading */
  .Travel{
     font-size: 18px;
     font-weight: 500;
  }
+/* column 4 elements and its hover effects */
  .column4-list{
     display: flex;
     flex-direction: column;
@@ -897,12 +951,14 @@ a.left:hover:before{
     text-decoration: none;
     padding-top: 15px;
  }
+/* section 2 */
  .sec-2{
     display: flex;
     flex-direction: row;
     padding-left: 225px;
     padding-top: 90px;
  }
+/* Brands and other icons and its hover effects in section 2 */
  .fa-brands{
     color: white;
     font-size: 17px;
@@ -1002,10 +1058,12 @@ a.left:hover:before{
  .kochi{
     padding-left: 10px;
  }
+/* section 3 */
  .sec-3{
     display: flex;
     flex-direction: row;
  }
+/* images of playstore and appstore in section 3 */
  .img-playstore{
     width: 130px;
     padding-left: 225px;
@@ -1016,10 +1074,12 @@ a.left:hover:before{
     padding-left: 7px;
     padding-top: 55px;
  }
+/* section 4 */
  .sec-4{
     display: flex;
     flex-direction: row;
  }
+/* some texts and its hover effects in section 4*/
  .tech-text{
     font-size: 12px;
     font-weight: normal;
